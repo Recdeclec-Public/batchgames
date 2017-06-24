@@ -6,7 +6,7 @@ set /p sp= <tmpFile
 del tmpFile
 
 :cmd
-set /p cmd=C:\
+set /p cmd=root@CrothOS: ~$ 
 call "%sp%\Program Files\"%cmd%
 goto cmd
 

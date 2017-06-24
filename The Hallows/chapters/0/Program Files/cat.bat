@@ -1,3 +1,3 @@
 @ECHO off
-dir %1
+more %1
 
